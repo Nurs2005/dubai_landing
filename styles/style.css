@@ -406,7 +406,6 @@ padding-top: 44px;
     padding-bottom: 50px;
 }
 .card__house{
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -464,4 +463,141 @@ color: #394141;
 .arrs{
     width: 13.5px;
     height: 9px;
+}
+.btn_project{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #394141;
+    padding-top: 77px;
+}
+.all__project{
+width: 335px;
+height: 65px;
+border: 1px solid #394141;
+border-radius: 5px;
+}
+
+
+/* section 5 */
+.how_we_title{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    text-align: center;
+    color: #394141;
+    padding-top: 106px;
+    padding-bottom: 69px;
+}
+.how__cards{
+    display: flex;
+}
+.how__cards p{
+    width: 420px;
+}
+.how_num{
+    display: flex;
+    margin-top: 10px;
+    margin-right:-10px;
+}
+.how_num p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #394141;
+}
+.how_num h2{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: right; 
+    color: #394141;
+    position: relative;
+    right: 20px;
+    top: -10px;
+}
+.num_img{
+    width: 73px;
+    height: 50px;
+}
+.how_num_h{
+    margin-left: -20px;
+}
+.last_card{
+    padding-top: 0px;
+}
+.card_p_two{
+}
+.card_p_three{
+}
+.how_num_h_two{
+    margin-left: -10px;
+}
+.card_p_five{
+}
+.how_num_h_four{
+    margin-left: -10px;
+}
+.card_p_four{
+}
+@media(max-width:1160px){
+    .how__cards p{
+        width: 100%;
+    }
+    .img_of_house{
+        padding-top: 25px;
+    }
+}
+
+.footer{
+    padding-top: 67px;
+}
+.footer_contacts{
+    padding-top: 6px;
+    padding-bottom: 36px;
+}
+.footer__logo{
+    margin-top: 30px;
+}
+.footer_a_one{
+    margin-left: 0px;
+}
+.footer_a{
+    margin-left: 30px;
+}
+.footer_a_two{
+    margin-left: 70px;
+}
+.namber{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #242228;
+    text-decoration: none;
+}
+.email{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #242228;
+    text-decoration: none;
+
+}
+.ty{
+    margin-left: -30px;
 }
