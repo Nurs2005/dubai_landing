@@ -7,12 +7,16 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Lato', sans-serif;
     position: relative;
-    background-color: #eeee;
     z-index: 1;
+    background: #fff;
+}
+h1 h2 h3 h4 h5 p {
+    font-family: 'Lato', sans-serif;
 }
 .logo{
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 35px;
@@ -68,6 +72,19 @@ body{
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
+.call_btn{
+    font-family: 'Lato', sans-serif;
+    background: #394141;
+    color: #FFFFFF;
+    width: 185px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.call_btn:hover{
+    border: 1px solid #8B8B8B;
+}
 .first__img{
     padding-top: 30px;
     margin-left: 30px;
@@ -78,6 +95,47 @@ body{
 .arrows{
     padding-top:17px;
     padding-left:550px;
+}
+.no-border {
+    border: none;
+    border-radius: 0;
+    height: 40px;
+    font-size: 20px;
+}
+.form-control:focus{
+    border:none;
+    box-shadow: none;
+}
+.bt-border{
+    border-bottom: 1px solid #8B8B8B;
+}
+.feedback{
+    background: linear-gradient(320.2deg, #D9D9D9 46.65%, rgba(217, 217, 217, 0) 245.67%);
+}
+.bg-image{
+    background-image: url('../img/feedback_bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.feedback-title{
+    color: #394141;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.feedback-under-title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    /* or 17px */
+    color: #394141;
+
+}
+@media only screen and (max-width: 600px) {
+    .bg-image{
+        background: linear-gradient(320.2deg, #D9D9D9 46.65%, rgba(217, 217, 217, 0) 245.67%);
+    }
 }
 @media(max-width:1394px){
     .home__img__one{
@@ -234,7 +292,7 @@ body{
 .card-body{
     padding: 0;
     margin: 0;
-    background-color: #EEEEEE;
+
 }
 .card{
     border: none;
@@ -390,9 +448,7 @@ padding-top: 44px;
     }
 }
 /* section 4 */
-.tyty{
-    padding-left: 50px;
-}
+
 .types_house_subtitle{
     width: 100%;
     text-align: center;
